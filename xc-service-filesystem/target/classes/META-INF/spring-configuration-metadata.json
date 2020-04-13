@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.xc.filesystem.config.DfsConfig",
+      "name": "xc.fastdfs",
+      "type": "com.xc.filesystem.config.DfsConfig"
+    }
+  ],
+  "properties": []
+}

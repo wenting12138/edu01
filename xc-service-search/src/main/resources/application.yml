@@ -1,0 +1,25 @@
+server:
+  port: 40100
+spring:
+  application:
+    name: xc-service-search
+
+xc:
+  elasticsearch:
+    hostlist: 127.0.0.1:9200
+course:
+  index: xc_courses
+  type: doc
+  sourse_field: id,name,grade,mt,st,charge,valid,pic,qq,price,price_old,status,studymodel,teachmodel,expires,pub_time,start_time,end_time
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:50101/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
+media:
+  index: xc_course_media
+  type: doc
+  sourse_field: courseid,media_id,media_url,teachplan_id,media_fileoriginalname

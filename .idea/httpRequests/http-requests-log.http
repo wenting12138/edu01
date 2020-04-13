@@ -1,0 +1,4 @@
+GET http://localhost:31200/course/teachplan/list/{courseId}
+
+###
+

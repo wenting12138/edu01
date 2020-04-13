@@ -1,0 +1,41 @@
+server:
+  port: 31200
+spring:
+  application:
+    name: xc-service-manager-course
+  datasource:
+    url: jdbc:mysql://localhost:3306/xc_course
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:50101/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+
+feign:
+  client:
+    default:
+#这里时间一定要调长，否则feign客户端会报ReadTimeOut  服务端报Error parsing HTTP request header
+      connectTimeout: 60000
+      readTimeout: 60000
+xc:
+  elasticsearch:
+    hostlist: 127.0.0.1:9200
+
+course-publish:
+  siteId: 5e8aad058088a242dac66573
+  templateId: 5ad9a24d68db5239b8fef199
+  previewUrl: http://www.xuecheng.com/cms/preview/
+  pageWebPath: /course/detail/
+  pagePhysicalPath: /course/detail/
+  dataUrl: http://localhost:31200/course/courseviews/

@@ -1,0 +1,9 @@
+server:
+  port: 55555
+spring:
+  application:
+    name: xc-test-freemarker
+  freemarker:
+    cache: false
+    settings:
+      template_update_delay: 0  # 检查模板更新延迟时间, 设置为0表示立即检测

@@ -1,0 +1,27 @@
+server:
+  port: 31000
+spring:
+  application:
+    name: xc-service-manager-cms-client
+  data:
+    mongodb:
+      uri: mongodb://47.114.111.3:27017
+      database: xc_cms
+  rabbitmq:
+    host: 47.114.111.3
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:50101/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
+
+xc:
+  mq:
+    queue: queue_cms_postpage_03
+    routingKey: 5e8aad058088a242dac66573

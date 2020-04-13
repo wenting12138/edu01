@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36e12e1b-e1f0-4f99-a16a-f56f9fe3e835" name="Default Changelist" comment="SpringSecurity auth2.0">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/src/main/java/com/xc/test/TestFastFdsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/src/main/resources/fastdfs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/src/test/java/com/wen/test/TestFastFds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/target/classes/com/xc/test/TestFastFdsMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/target/classes/fastdfs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/target/test-classes/com/wen/test/TestFastFds.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xc/test/FreemarkerTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xc/test/controller/FreemarkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xc/test/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xc/test/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/course.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/index_banner.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/META-INF/test-freemarker.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xc/test/FreemarkerTestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xc/test/controller/FreemarkerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xc/test/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xc/test/model/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/templates/course.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/auth/AuthControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/cms/CmsConfigControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/cms/CmsPageControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/cms/CmsSysDirControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/config/Swagger2Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/course/CategoryControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/course/TeachplanControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/filesystem/FileSystemControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/learning/CourseLearningControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/media/MediaFileControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/media/MediaUploadControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/search/EsCourseControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/src/main/java/com/xc/api/ucenter/UcenterControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/auth/AuthControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/cms/CmsConfigControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/cms/CmsPageControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/cms/CmsSysDirControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/config/Swagger2Configuration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/course/CategoryControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/course/TeachplanControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/filesystem/FileSystemControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/learning/CourseLearningControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/media/MediaFileControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/media/MediaUploadControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/search/EsCourseControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api/target/classes/com/xc/api/ucenter/UcenterControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/client/XcServiceList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/exception/ExceptionCast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/exception/SelfExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/interceptor/FeignClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/model/request/RequestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/model/response/CommonCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/model/response/QueryResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/model/response/QueryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/model/response/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/model/response/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/model/response/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/src/main/java/com/xc/ommon/web/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/client/XcServiceList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/exception/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/exception/ExceptionCast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/exception/SelfExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/interceptor/FeignClientInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/model/request/RequestData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/model/response/CommonCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/model/response/QueryResponseResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/model/response/QueryResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/model/response/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/model/response/ResponseResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/model/response/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-commons/target/classes/com/xc/ommon/web/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-center/src/main/java/com/xc/eureka/GovernCenterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-center/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-center/target/classes/com/xc/eureka/GovernCenterMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-center/xc-govern-center.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/src/main/java/com/xc/getway/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/src/main/java/com/xc/getway/filter/LoginZuulFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/src/main/java/com/xc/getway/filter/LoginZuulFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/src/main/java/com/xc/getway/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/target/classes/META-INF/xc-govern-getway.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/target/classes/com/xc/getway/ZuulApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/target/classes/com/xc/getway/filter/LoginZuulFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/target/classes/com/xc/getway/filter/LoginZuulFilterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-govern-getway/target/classes/com/xc/getway/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/CmsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/CmsConfigModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/CmsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/CmsPageParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/CmsSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/CmsSiteServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/CmsTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/ext/CmsPageExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/ext/CmsTemplateExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/request/QueryPageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/response/CmsCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/response/CmsPageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/response/CmsPostPageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/response/CoursePreviewResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/cms/response/GenerateHtmlResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/CourseBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/CourseIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/CourseMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/CourseOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/CoursePic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/CoursePre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/CoursePub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/Teachplan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/TeachplanMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/TeachplanMediaPub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/ext/CategoryNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/ext/CategoryParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/ext/CourseInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/ext/CourseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/ext/TeachplanExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/ext/TeachplanNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/ext/TeachplanParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/request/CourseListRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/response/AddCourseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/response/CourseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/response/CoursePublishResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/course/response/DeleteCourseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/filesystem/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/filesystem/response/FileSystemCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/filesystem/response/UploadFileResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/learning/LearningCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/learning/XcLearningCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/learning/XcLearningList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/learning/response/GetMediaResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/MediaFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/MediaFileProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/MediaFileProcess_m3u8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/MediaVideoCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/MediaVideoCourseSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/request/QueryMediaFileRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/response/CheckChunkResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/response/MediaCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/response/MediaCourseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/media/response/MediaFileResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/XcOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/XcOrdersDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/XcOrdersPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/request/CreateOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/request/weixinPayInformRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/response/CreateOrderResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/response/OrderCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/response/OrderResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/response/PayOrderResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/order/response/PayQrcodeResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/portalview/PreViewCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/portalview/PreViewCourseMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/portalview/ViewCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/portalview/ViewCourseMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/portalview/response/PortalViewCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/report/ReportCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/report/ReportCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/search/CourseSearchParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/system/SysDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/system/SysDictionaryValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/task/XcTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/task/XcTaskHis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/XcCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/XcCompanyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/XcMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/XcPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/XcRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/XcTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/XcUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/XcUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/ext/AuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/ext/UserBasicInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/ext/UserToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/ext/UserTokenStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/ext/XcMenuExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/ext/XcUserExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/response/AuthCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/response/JwtResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/response/LoginResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/src/main/java/com/xc/model/ucenter/response/UcenterCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/META-INF/xc-model.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/CmsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/CmsConfigModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/CmsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/CmsPageParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/CmsSite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/CmsSiteServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/CmsTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/ext/CmsPageExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/ext/CmsTemplateExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/request/QueryPageRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/response/CmsCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/response/CmsPageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/response/CmsPostPageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/response/CoursePreviewResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/cms/response/GenerateHtmlResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/CourseBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/CourseIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/CourseMarket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/CourseOff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/CoursePic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/CoursePre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/CoursePub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/Teachplan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/TeachplanMedia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/TeachplanMediaPub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/ext/CategoryNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/ext/CategoryParameter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/ext/CourseInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/ext/CourseView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/ext/TeachplanExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/ext/TeachplanNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/ext/TeachplanParameter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/request/CourseListRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/response/AddCourseResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/response/CourseCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/response/CoursePublishResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/course/response/DeleteCourseResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/filesystem/FileSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/filesystem/response/FileSystemCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/filesystem/response/UploadFileResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/learning/LearningCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/learning/XcLearningCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/learning/XcLearningList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/learning/response/GetMediaResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/MediaFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/MediaFileProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/MediaFileProcess_m3u8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/MediaVideoCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/MediaVideoCourseSimple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/request/QueryMediaFileRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/response/CheckChunkResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/response/MediaCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/response/MediaCourseResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/media/response/MediaFileResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/XcOrders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/XcOrdersDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/XcOrdersPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/request/CreateOrderRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/request/weixinPayInformRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/response/CreateOrderResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/response/OrderCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/response/OrderResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/response/PayOrderResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/order/response/PayQrcodeResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/portalview/PreViewCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/portalview/PreViewCourseMedia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/portalview/ViewCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/portalview/ViewCourseMedia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/portalview/response/PortalViewCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/report/ReportCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/report/ReportCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/search/CourseSearchParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/system/SysDictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/system/SysDictionaryValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/task/XcTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/task/XcTaskHis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/test/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/XcCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/XcCompanyUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/XcMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/XcPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/XcRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/XcTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/XcUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/XcUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/ext/AuthToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/ext/UserBasicInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/ext/UserToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/ext/UserTokenStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/ext/XcMenuExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/ext/XcUserExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/request/LoginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/response/AuthCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/response/JwtResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/response/LoginResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-model/target/classes/com/xc/model/ucenter/response/UcenterCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/main/java/com/xc/filesystem/FileSystemMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/main/java/com/xc/filesystem/config/DfsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/main/java/com/xc/filesystem/controller/FileSystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/main/java/com/xc/filesystem/dao/FileSystemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/main/java/com/xc/filesystem/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/main/java/com/xc/filesystem/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/main/resources/fastdfs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/src/test/java/com/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/com/xc/filesystem/FileSystemMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/com/xc/filesystem/config/DfsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/com/xc/filesystem/controller/FileSystemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/com/xc/filesystem/dao/FileSystemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/com/xc/filesystem/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/com/xc/filesystem/service/impl/FileServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/fastdfs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-filesystem/target/test-classes/com/T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/LearningMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/controller/CourseLearningController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/dao/LearningCourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/dao/TaskHisDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/dao/XcLearningCourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/dao/XcTaskHisRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/feignclient/SearchFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/mq/ChooseCourseTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/service/CourseLearningService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xc/learning/service/impl/CourseLearningServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/resources/mapper/LearningCourseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/resources/mapper/TaskHisDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xc/learning/LearningMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xc/learning/controller/CourseLearningController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xc/learning/dao/LearningCourseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xc/learning/dao/TaskHisDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xc/learning/feignclient/SearchFeignClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xc/learning/service/CourseLearningService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xc/learning/service/impl/CourseLearningServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/mapper/LearningCourseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/mapper/TaskHisDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/src/main/java/com/xc/cmsclient/CmsClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/src/main/java/com/xc/cmsclient/config/MongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/src/main/java/com/xc/cmsclient/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/src/main/java/com/xc/cmsclient/dao/CmsPageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/src/main/java/com/xc/cmsclient/dao/CmsSiteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/src/main/java/com/xc/cmsclient/mq/ConsumerPostPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/src/main/java/com/xc/cmsclient/service/PageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/target/classes/com/xc/cmsclient/CmsClientMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/target/classes/com/xc/cmsclient/config/MongoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/target/classes/com/xc/cmsclient/config/RabbitMqConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/target/classes/com/xc/cmsclient/dao/CmsPageRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/target/classes/com/xc/cmsclient/dao/CmsSiteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/target/classes/com/xc/cmsclient/mq/ConsumerPostPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/target/classes/com/xc/cmsclient/service/PageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms-client/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/ManagerCmsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/config/MongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/controller/CmsConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/controller/CmsPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/controller/CmsPagePreviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/controller/CmsSysDirController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/dao/CmsCOnfigRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/dao/CmsPageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/dao/CmsSiteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/dao/CmsTemplateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/dao/SysDictionaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/service/PageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/java/com/xc/manager_cms/service/impl/PageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/test/java/com/xc/manager_cms/GridFsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/test/java/com/xc/manager_cms/dao/CmsPageRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/src/test/java/com/xc/manager_cms/service/impl/PageServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/META-INF/xc-service-manager-cms.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/ManagerCmsMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/config/MongoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/config/RabbitMqConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/controller/CmsConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/controller/CmsPageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/controller/CmsPagePreviewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/controller/CmsSysDirController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/dao/CmsCOnfigRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/dao/CmsPageRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/dao/CmsSiteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/dao/CmsTemplateRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/dao/SysDictionaryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/service/PageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/com/xc/manager_cms/service/impl/PageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/test-classes/META-INF/xc-service-manager-cms.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/test-classes/com/xc/manager_cms/GridFsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/test-classes/com/xc/manager_cms/dao/CmsPageRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-cms/target/test-classes/com/xc/manager_cms/service/impl/PageServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/CourseManagerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/config/CoursePublishConfigParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/config/EsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/constant/CourseBaseConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/CourseBaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/CourseMarketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/CourseOffDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/CoursePicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/CoursePreDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/CoursePubDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/TeachplanDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/TeachplanMediaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/dao/TeachplanMediaPubDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/exception/CourseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/feignclient/CmsPageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/java/com/xc/course_manager/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/mapper/CategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/mapper/CourseBaseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/mapper/CourseMarketDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/mapper/CoursePicDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/mapper/CoursePubDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/mapper/TeachplanDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/mapper/TeachplanMediaDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/mapper/TeachplanMediaPubDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/main/resources/publickey.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/src/test/java/com/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/META-INF/xc-service-manager-course.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/CourseManagerMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/config/CoursePublishConfigParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/config/EsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/constant/CourseBaseConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/CourseBaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/CourseMarketDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/CourseOffDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/CoursePicDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/CoursePreDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/CoursePubDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/TeachplanDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/TeachplanMediaDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/dao/TeachplanMediaPubDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/exception/CourseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/feignclient/CmsPageClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/com/xc/course_manager/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/mapper/CategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/mapper/CourseBaseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/mapper/CourseMarketDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/mapper/CoursePicDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/mapper/CoursePubDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/mapper/TeachplanDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/mapper/TeachplanMediaDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/mapper/TeachplanMediaPubDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/classes/publickey.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-course/target/test-classes/com/T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/src/main/java/com/xc/media_processor/MediaProcessorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/src/main/java/com/xc/media_processor/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/src/main/java/com/xc/media_processor/dao/MediaFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/src/main/java/com/xc/media_processor/mq/MediaProcessorTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/src/test/java/com/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/target/classes/com/xc/media_processor/MediaProcessorMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/target/classes/com/xc/media_processor/config/RabbitMqConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/target/classes/com/xc/media_processor/dao/MediaFileDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/target/classes/com/xc/media_processor/mq/MediaProcessorTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media-processor/target/test-classes/com/T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/MediaManagerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/constant/MediaStatusParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/controller/MediaFileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/controller/MediaUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/dao/MediaFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/serivce/MediaFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/serivce/MediaUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/serivce/impl/MediaFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/java/com/xc/media_manager/serivce/impl/MediaUploadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/src/test/java/com/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/MediaManagerMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/config/RabbitMqConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/constant/MediaStatusParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/controller/MediaFileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/controller/MediaUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/dao/MediaFileDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/serivce/MediaFileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/serivce/MediaUploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/serivce/impl/MediaFileServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/serivce/impl/MediaUploadServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/classes/com/xc/media_manager/serivce/impl/MediaUploadServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/test-classes/com/Test$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-media/target/test-classes/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/src/main/java/com/xc/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/src/main/java/com/xc/order/config/AsyncTaskConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/src/main/java/com/xc/order/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/src/main/java/com/xc/order/dao/XcTaskHisRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/src/main/java/com/xc/order/dao/XcTaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/src/main/java/com/xc/order/mq/ChooseCourseTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/src/main/java/com/xc/order/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/src/main/java/com/xc/order/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/target/classes/com/xc/order/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/target/classes/com/xc/order/config/AsyncTaskConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/target/classes/com/xc/order/config/RabbitMQConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/target/classes/com/xc/order/dao/XcTaskHisRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/target/classes/com/xc/order/dao/XcTaskRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/target/classes/com/xc/order/mq/ChooseCourseTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/target/classes/com/xc/order/service/TaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manager-order/target/classes/com/xc/order/service/impl/TaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xc/search/SearchMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xc/search/config/EsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xc/search/config/EsIndexParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xc/search/controller/EsCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xc/search/service/EsCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xc/search/service/impl/EsCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/test/java/com/xc/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xc/search/SearchMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xc/search/config/EsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xc/search/config/EsIndexParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xc/search/controller/EsCourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xc/search/service/EsCourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xc/search/service/impl/EsCourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/target/test-classes/com/xc/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/UcenterAuthMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/config/CustomUserAuthenticationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/config/MyRedisTokenStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xc/auth/service/UserJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/resources/xc.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xc/auth/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xc/auth/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xc/auth/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xc/auth/W.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/UcenterAuthMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/client/UserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/config/AuthorizationServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/config/CustomUserAuthenticationConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/config/MyRedisTokenStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/service/AuthService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/service/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xc/auth/service/UserJwt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/xc.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/META-INF/xc-service-ucenter-auth.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xc/auth/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xc/auth/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xc/auth/T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xc/auth/W$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xc/auth/W.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xc/ucenter/UCenterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xc/ucenter/controller/UcenterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xc/ucenter/dao/XcCompanyUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xc/ucenter/dao/XcMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xc/ucenter/dao/XcUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xc/ucenter/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/src/main/java/com/xc/ucenter/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/src/main/resources/mapper/XcMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xc/ucenter/UCenterMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xc/ucenter/controller/UcenterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xc/ucenter/dao/XcCompanyUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xc/ucenter/dao/XcMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xc/ucenter/dao/XcUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xc/ucenter/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xc/ucenter/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/mapper/XcMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/BCryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/GenerateOrderNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/HlsVideoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/Mp4VideoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/Oauth2Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/Snowflake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/SnowflakeIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/VideoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/XcOauth2Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/src/main/java/com/xc/utils/ZipUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/BCryptUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/CookieUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/GenerateOrderNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/HlsVideoUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/HttpClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/HttpClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/Mp4VideoUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/Oauth2Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/Snowflake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/SnowflakeIdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/VideoUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/XcOauth2Util$UserJwt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/XcOauth2Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-utils/target/classes/com/xc/utils/ZipUtil.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="xcedu" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\xc-edu01\edu01\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven101" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZxvoDlV2lX9t5YrSUTdyenmMWk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-manager-order/src/main/java/com/xc/order/config" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23908046" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.xc.manager_cms.service.impl" />
+      <recent name="com.xc.manager_cms.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xc.auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\develop\workspace\xcedu\xc-service-manager-order\src\main\java\com\xc\order\config" />
+      <recent name="E:\develop\workspace\xcedu\xc-service-manager-order\src\main\resources" />
+      <recent name="E:\develop\workspace\xcedu\xc-service-ucenter-auth\src\main\java\com\xc\auth\config" />
+      <recent name="E:\develop\workspace\xcedu\xc-service-ucenter-auth\src\main\java\com\xc\auth\service" />
+      <recent name="E:\develop\workspace\xcedu\xc-service-ucenter\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xc.order.dao" />
+      <recent name="com.xc.learning.config" />
+      <recent name="com.xc.manager_cms.config" />
+      <recent name="com.xc.getway.filter" />
+      <recent name="com.xc.ucenter.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\develop\workspace\xcedu" />
+      <recent name="E:\develop\workspace\xcedu\test-freemarker\src\main\resources" />
+      <recent name="E:\develop\workspace\xcedu\xc-service-manager-cms\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ChooseCourseTask">
+    <configuration name="ChooseCourseTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xc.order.mq.ChooseCourseTask" />
+      <module name="xc-service-manager-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xc.order.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseManagerMain#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/CourseManagerMain.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="W.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-ucenter-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xc.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xc.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.xc.auth.W" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsClientMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-manager-cms-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.cmsclient.CmsClientMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseManagerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-manager-course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.course_manager.CourseManagerMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileSystemMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-filesystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.filesystem.FileSystemMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FreemarkerTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-freemarker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.test.FreemarkerTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GovernCenterMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-govern-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.eureka.GovernCenterMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-learning" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.learning.LearningMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerCmsMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-manager-cms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.manager_cms.ManagerCmsMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaManagerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-manager-media" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.media_manager.MediaManagerMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaProcessorMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-manager-media-processor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.media_processor.MediaProcessorMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manager-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xc.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.search.SearchMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFastFdsMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-fastdfs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.test.TestFastFdsMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UCenterMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-ucenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.ucenter.UCenterMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UcenterAuthMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-ucenter-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xc.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.auth.UcenterAuthMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-govern-getway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.getway.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ChooseCourseTask" />
+      <item itemvalue="HTTP Request.CourseManagerMain#1" />
+      <item itemvalue="JUnit.W.test5" />
+      <item itemvalue="Spring Boot.CourseManagerMain" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.ManagerCmsMain" />
+      <item itemvalue="Spring Boot.CmsClientMain" />
+      <item itemvalue="Spring Boot.FreemarkerTestApplication" />
+      <item itemvalue="Spring Boot.FileSystemMain" />
+      <item itemvalue="Spring Boot.MediaManagerMain" />
+      <item itemvalue="Spring Boot.GovernCenterMain" />
+      <item itemvalue="Spring Boot.LearningMain" />
+      <item itemvalue="Spring Boot.MediaProcessorMain" />
+      <item itemvalue="Spring Boot.SearchMain" />
+      <item itemvalue="Spring Boot.UCenterMain" />
+      <item itemvalue="Spring Boot.TestFastFdsMain" />
+      <item itemvalue="Spring Boot.UcenterAuthMain" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChooseCourseTask" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="HTTP Request.CourseManagerMain#1" />
+        <item itemvalue="JUnit.W.test5" />
+        <item itemvalue="Spring Boot.UcenterAuthMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.17144808" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@c4d7b35" type="d2cb1801:ServiceModel$ContributorNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@c4d7b35" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@c4d7b35" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+          <option name="groupByContributor" value="true" />
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36e12e1b-e1f0-4f99-a16a-f56f9fe3e835" name="Default Changelist" comment="" />
+      <created>1585793737266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585793737266</updated>
+      <workItem from="1585793749142" duration="13512000" />
+      <workItem from="1585821061886" duration="5034000" />
+      <workItem from="1585872930168" duration="30956000" />
+      <workItem from="1585960092610" duration="9795000" />
+      <workItem from="1585983073002" duration="21720000" />
+      <workItem from="1586047726303" duration="32970000" />
+      <workItem from="1586132664403" duration="30116000" />
+      <workItem from="1586218524177" duration="15318000" />
+      <workItem from="1586239299872" duration="6692000" />
+      <workItem from="1586252609520" duration="1832000" />
+      <workItem from="1586261936117" duration="6127000" />
+      <workItem from="1586313905820" duration="8838000" />
+      <workItem from="1586328110115" duration="14778000" />
+      <workItem from="1586391828758" duration="23896000" />
+      <workItem from="1586477726255" duration="26730000" />
+      <workItem from="1586564445846" duration="2733000" />
+      <workItem from="1586567704265" duration="6406000" />
+      <workItem from="1586576768651" duration="29847000" />
+      <workItem from="1586651153276" duration="33489000" />
+      <workItem from="1586736769562" duration="13143000" />
+      <workItem from="1586760792772" duration="562000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="springsecurity auth2.0" />
+    <MESSAGE value="SpringSecurity auth2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringSecurity auth2.0" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Assign_Data_Sources" timestamp="1586585971847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1586585971847" />
+    <state x="361" y="74" key="#Console" timestamp="1586266114020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Console/0.0.1536.824@0.0.1536.824" timestamp="1586266114020" />
+    <state x="361" y="74" key="#Project_Structure" timestamp="1586595723429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586595723429" />
+    <state x="500" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586568572537">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1586568572537" />
+    <state x="574" y="121" width="487" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1586696331688">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" width="487" height="582" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586696331688" />
+    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585807137829">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1585807137829" />
+    <state x="330" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586503266411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="330" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1586503266411" />
+    <state x="432" y="279" width="671" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586673478463">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="432" y="279" width="671" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1586673478463" />
+    <state x="432" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586402568743">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="432" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1586402568743" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586571777221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586571777221" />
+    <state x="333" y="10" key="CommitChangelistDialog2" timestamp="1586761532350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="333" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586761532350" />
+    <state width="668" height="246" key="DebuggerActiveHint" timestamp="1586658762566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="668" height="246" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1586658762566" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1586655444770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586655444770" />
+    <state width="1237" height="507" key="GridCell.Tab.-1.bottom" timestamp="1586582400484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="507" key="GridCell.Tab.-1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586582400484" />
+    <state width="1237" height="507" key="GridCell.Tab.-1.center" timestamp="1586582400484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="507" key="GridCell.Tab.-1.center/0.0.1536.824@0.0.1536.824" timestamp="1586582400484" />
+    <state width="1237" height="507" key="GridCell.Tab.-1.left" timestamp="1586582400484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="507" key="GridCell.Tab.-1.left/0.0.1536.824@0.0.1536.824" timestamp="1586582400484" />
+    <state width="1237" height="507" key="GridCell.Tab.-1.right" timestamp="1586582400484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="507" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1586582400484" />
+    <state width="1493" height="345" key="GridCell.Tab.0.bottom" timestamp="1586748124712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586748124712" />
+    <state width="1493" height="345" key="GridCell.Tab.0.center" timestamp="1586748124712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586748124712" />
+    <state width="1493" height="345" key="GridCell.Tab.0.left" timestamp="1586748124712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586748124712" />
+    <state width="1493" height="345" key="GridCell.Tab.0.right" timestamp="1586748124712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="345" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586748124712" />
+    <state width="1212" height="234" key="GridCell.Tab.1.bottom" timestamp="1586748093396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1212" height="234" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586748093396" />
+    <state width="1212" height="234" key="GridCell.Tab.1.center" timestamp="1586748093396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1212" height="234" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586748093396" />
+    <state width="1212" height="234" key="GridCell.Tab.1.left" timestamp="1586748093395">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1212" height="234" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586748093395" />
+    <state width="1212" height="234" key="GridCell.Tab.1.right" timestamp="1586748093396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1212" height="234" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586748093396" />
+    <state width="1237" height="260" key="GridCell.Tab.2.bottom" timestamp="1586579678820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="260" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586579678820" />
+    <state width="1237" height="260" key="GridCell.Tab.2.center" timestamp="1586579678820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="260" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586579678820" />
+    <state width="1237" height="260" key="GridCell.Tab.2.left" timestamp="1586579678820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="260" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586579678820" />
+    <state width="1237" height="260" key="GridCell.Tab.2.right" timestamp="1586579678820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="260" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586579678820" />
+    <state x="408" y="116" key="NewModule_or_Project.wizard" timestamp="1586760398983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1586760398983" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1586761027169">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586761027169" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1586601935022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1586601935022" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1586737062066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586737062066" />
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586487434698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1586487434698" />
+    <state x="316" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586243771803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="316" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1586243771803" />
+    <state x="178" y="116" key="new project wizard" timestamp="1586685642524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586685642524" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1586578141443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586578141443" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586739589871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586739589871" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-manager-cms/src/test/java/com/xc/manager_cms/dao/CmsPageRepositoryTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-manager-course/src/test/java/com/T.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xc/auth/T.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xc/auth/R.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xc/auth/R.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xc-api" />
+        <module name="xc-utils" />
+        <module name="xc-service-manager-course" />
+        <module name="xc-service-filesystem" />
+        <module name="xc-service-ucenter" />
+        <module name="xc-service-manager-cms" />
+        <module name="xc-service-search" />
+        <module name="xc-service-manager-cms-client" />
+        <module name="xc-service-manager-order" />
+        <module name="xc-govern-getway" />
+        <module name="xc-govern-center" />
+        <module name="xc-service-learning" />
+        <module name="xc-service-ucenter-auth" />
+        <module name="test-fastdfs" />
+        <module name="xc-service-manager-media" />
+        <module name="test-freemarker" />
+        <module name="xc-service-manager-media-processor" />
+        <module name="xc-commons" />
+        <module name="xc-model" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="test-fastdfs" options="-parameters" />
+      <module name="test-freemarker" options="-parameters" />
+      <module name="xc-api" options="-parameters" />
+      <module name="xc-commons" options="-parameters" />
+      <module name="xc-govern-center" options="-parameters" />
+      <module name="xc-govern-getway" options="-parameters" />
+      <module name="xc-model" options="-parameters" />
+      <module name="xc-parent" options="" />
+      <module name="xc-service-filesystem" options="-parameters" />
+      <module name="xc-service-learning" options="-parameters" />
+      <module name="xc-service-manager-cms" options="-parameters" />
+      <module name="xc-service-manager-cms-client" options="-parameters" />
+      <module name="xc-service-manager-course" options="-parameters" />
+      <module name="xc-service-manager-media" options="-parameters" />
+      <module name="xc-service-manager-media-processor" options="-parameters" />
+      <module name="xc-service-manager-order" options="-parameters" />
+      <module name="xc-service-search" options="-parameters" />
+      <module name="xc-service-ucenter" options="-parameters" />
+      <module name="xc-service-ucenter-auth" options="-parameters" />
+      <module name="xc-utils" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xc.course_manager.dao.CourseMarketDao">
+<!--    Category findById(String id);-->
+    <select id="findById" resultType="com.xc.model.course.CourseMarket" parameterType="java.lang.String">
+        select * from course_market where id = #{id}
+    </select>
+
+
+<!--    void insert(CourseMarket courseMarket);-->
+    <insert id="insert" parameterType="com.xc.model.course.CourseMarket">
+        insert into course_market(id, charge, valid, qq, price, price_old, start_time, end_time)
+        values (#{id},#{charge},#{valid},#{qq},#{price},#{price_old},#{startTime},#{endTime})
+    </insert>
+
+<!--    void update(CourseMarket courseMarket);-->
+    <update id="update" parameterType="com.xc.model.course.CourseMarket">
+        update course_market
+        <set>
+            <if test="charge!=null and !charge.equals(&quot;&quot;)">
+                charge = #{charge},
+            </if>
+            <if test="valid!=null and !valid.equals(&quot;&quot;)">
+                valid = #{valid},
+            </if>
+            <if test="qq!=null and !qq.equals(&quot;&quot;)">
+                qq = #{qq},
+            </if>
+            <if test="price!=null and !price.equals(&quot;&quot;)">
+                price = #{price},
+            </if>
+            <if test="price_old!=null and !price_old.equals(&quot;&quot;)">
+                price_old = #{price_old},
+            </if>
+            <if test="startTime!=null and !startTime.equals(&quot;&quot;)">
+                start_time = #{startTime},
+            </if>
+            <if test="endTime!=null and !endTime.equals(&quot;&quot;)">
+                end_time = #{endTime},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+</mapper>

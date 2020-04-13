@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xc.course_manager.dao.TeachplanMediaDao">
+
+<!--    Teachplan findById(String id);-->
+    <select id="findById" parameterType="java.lang.String" resultType="com.xc.model.course.TeachplanMedia">
+        select * from teachplan_media where teachplan_id = #{teachplanId}
+    </select>
+    <insert id="save" parameterType="com.xc.model.course.TeachplanMedia">
+        insert into teachplan_media(teachplan_id, media_id, media_fileoriginalname, media_url, courseid)
+        values (#{teachplanId},#{mediaId},#{mediaFileOriginalName},#{mediaUrl},#{courseId})
+    </insert>
+
+    <update id="update" parameterType="com.xc.model.course.TeachplanMedia">
+        update teachplan_media
+        <set>
+            <if test="mediaId!=null and !mediaId.equals(&quot;&quot;)">
+                media_id = #{mediaId},
+            </if>
+            <if test="mediaFileOriginalName!=null and !mediaFileOriginalName.equals(&quot;&quot;)">
+                media_fileoriginalname = #{mediaFileOriginalName},
+            </if>
+            <if test="mediaUrl!=null and !mediaUrl.equals(&quot;&quot;)">
+                media_url = #{mediaUrl},
+            </if>
+            <if test="courseId!=null and !courseId.equals(&quot;&quot;)">
+                courseid = #{courseId},
+            </if>
+        </set>
+        where teachplan_id = #{teachplanId}
+    </update>
+
+<!--    // 根据课程id查询列表-->
+<!--    List<TeachplanMedia> findByCourseId(String courseId);-->
+    <select id="findByCourseId" parameterType="java.lang.String" resultType="com.xc.model.course.TeachplanMedia">
+        select * from teachplan_media where courseid = #{courseId}
+    </select>
+</mapper>

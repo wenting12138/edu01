@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xc.learning.dao.LearningCourseDao">
+
+
+<!--    Category findById(String id);-->
+    <select id="findById" resultType="com.xc.model.learning.XcLearningCourse" parameterType="java.lang.String">
+        select * from xc_learning_course where id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.xc.model.learning.XcLearningCourse">
+        insert into xc_learning_course(id, name, users, mt, grade, studymodel, teachmode, description, st, status, company_id, user_id)
+        values (#{id},#{name},#{users},#{mt},#{grade},#{studymodel},#{teachmode},#{description},#{st},#{status},#{companyId},#{userId})
+    </insert>
+<!--    int findCount();-->
+    <select id="findCount" resultType="java.lang.Integer">
+        select count(*) from xc_learning_course
+    </select>
+    <update id="update" parameterType="com.xc.model.learning.XcLearningCourse">
+        update xc_learning_course
+        <set>
+            <if test="name!=null and !name.equals(&quot;&quot;)">
+                name = #{name},
+            </if>
+            <if test="users!=null and !users.equals(&quot;&quot;)">
+                users = #{users},
+            </if>
+            <if test="mt!=null and !mt.equals(&quot;&quot;)">
+                mt = #{mt},
+            </if>
+            <if test="grade!=null and !grade.equals(&quot;&quot;)">
+                grade = #{grade},
+            </if>
+            <if test="studymodel!=null and !studymodel.equals(&quot;&quot;)">
+                studymodel = #{studymodel},
+            </if>
+            <if test="teachmode!=null and !teachmode.equals(&quot;&quot;)">
+                teachmode = #{teachmode},
+            </if>
+            <if test="description!=null and !description.equals(&quot;&quot;)">
+                description = #{description},
+            </if>
+            <if test="st!=null and !st.equals(&quot;&quot;)">
+                st = #{st},
+            </if>
+            <if test="status!=null and !status.equals(&quot;&quot;)">
+                status = #{status},
+            </if>
+            <if test="companyId!=null and !companyId.equals(&quot;&quot;)">
+                company_id = #{companyId},
+            </if>
+            <if test="userId!=null and !userId.equals(&quot;&quot;)">
+                user_id = #{userId},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xc.course_manager.dao.TeachplanMediaPubDao">
+
+    <delete id="deleteByCourseId" parameterType="java.lang.String">
+        delete from teachplan_media_pub where courseid = #{courseId}
+    </delete>
+
+<!--    void saveAll(List<TeachplanMediaPub> teachplanMediaPubs);-->
+    <insert id="saveAll" parameterType="com.xc.model.course.TeachplanMediaPub">
+        insert into teachplan_media_pub(teachplan_id, media_id, media_fileoriginalname, media_url, courseid, timestamp)
+        <foreach collection="list" separator="," item="pub">
+            (#{pub.teachplanId},#{mediaId},#{mediaFileOriginalName},#{mediaUrl},#{courseId},#{timestamp})
+        </foreach>
+
+    </insert>
+
+    <select id="findAll" resultType="com.xc.model.course.TeachplanMediaPub">
+        select teachplan_id teachplanId, media_id mediaId, media_fileoriginalname mediaFileOriginalName, media_url mediaUrl, courseid courseId, timestamp from teachplan_media_pub
+    </select>
+</mapper>

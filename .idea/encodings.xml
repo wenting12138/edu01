@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/test-fastdfs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-freemarker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-govern-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-govern-getway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-filesystem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manager-cms-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manager-cms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manager-course/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manager-media-processor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manager-media/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manager-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-ucenter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-utils/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

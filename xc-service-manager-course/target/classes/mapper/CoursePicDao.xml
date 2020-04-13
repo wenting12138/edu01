@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xc.course_manager.dao.CoursePicDao">
+<!--    Category findById(String id);-->
+    <select id="findById" resultType="com.xc.model.course.CoursePic" parameterType="java.lang.String">
+        select * from course_pic where courseid = #{id}
+    </select>
+
+
+    <insert id="insert" parameterType="com.xc.model.course.CoursePic">
+        insert into course_pic(courseid, pic)
+        values (#{courseid},#{pic})
+    </insert>
+
+    <delete id="delete" parameterType="java.lang.String">
+        delete from course_pic where courseid = #{id}
+    </delete>
+
+    <update id="update" parameterType="com.xc.model.course.CoursePic">
+        update course_base
+        <set>
+            <if test="pic!=null and !pic.equals(&quot;&quot;)">
+                pic = #{pic},
+            </if>
+        </set>
+        where courseid = #{id}
+    </update>
+
+    <!--    int findCount();-->
+    <select id="findCount" resultType="java.lang.Integer">
+        select count(*) from course_pic
+    </select>
+</mapper>
